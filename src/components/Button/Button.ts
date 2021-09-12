@@ -1,16 +1,13 @@
-import { styled } from '../GlobalStyles/GlobalStyles';
+import { css } from '../GlobalStyles/GlobalStyles';
 
-const Button = styled('button', {
-  backgroundColor: '$gray300',
+const Button = css({
+  cursor: 'pointer',
+  backgroundColor: 'gainsboro',
   borderRadius: '9999px',
-  fontSize: '$2',
-  lineHeight: '1',
-  fontWeight: 500,
-  padding: '$2 $3',
-  border: '0',
-
+  fontSize: '13px',
+  padding: '10px 15px',
   '&:hover': {
-    backgroundColor: '$gray500',
+    backgroundColor: 'lightgray',
   },
 });
 

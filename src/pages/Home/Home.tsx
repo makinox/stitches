@@ -4,7 +4,9 @@ function Home() {
   return (
     <>
       <h1>Hello home</h1>
-      <Button onClick={() => console.log('hola')}> Click me </Button>
+      <button className={Button()} onClick={() => console.log('hola')}>
+        Click me!
+      </button>
     </>
   );
 }
